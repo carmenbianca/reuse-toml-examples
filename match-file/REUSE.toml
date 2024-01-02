@@ -1,0 +1,11 @@
+# SPDX-FileCopyrightText: 2023 Jane Doe
+#
+# SPDX-License-Identifier: CC0-1.0
+
+version = 1
+
+[[annotations]]
+# Match any file that matches '*.py'.
+path = "*.py"
+SPDX-FileCopyrightText = "2023 Jane Doe"
+SPDX-License-Identifier = "CC0-1.0"

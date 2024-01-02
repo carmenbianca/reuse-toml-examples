@@ -1,0 +1,11 @@
+# SPDX-FileCopyrightText: 2023 Jane Doe
+#
+# SPDX-License-Identifier: CC0-1.0
+
+version = 1
+
+[[annotations]]
+path = "foo.cfg"
+precedence = "toml"
+SPDX-FileCopyrightText = "2023 Example NGO"
+SPDX-License-Identifier = "CC0-1.0"

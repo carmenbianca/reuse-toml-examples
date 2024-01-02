@@ -1,0 +1,18 @@
+# SPDX-FileCopyrightText: 2023 Jane Doe
+#
+# SPDX-License-Identifier: CC0-1.0
+
+version = 1
+
+# The main licence for all images.
+[[annotations]]
+path = "static/**/*.png"
+SPDX-FileCopyrightText = "2023 Jane Doe"
+SPDX-License-Identifier = "CC0-1.0"
+
+# There is one specific image that is under a different licence. The last
+# matching [[annotations]] applies.
+[[annotations]]
+path = "static/food.png"
+SPDX-FileCopyrightText = "2023 Alice"
+SPDX-License-Identifier = "0BSD"

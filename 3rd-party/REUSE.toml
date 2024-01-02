@@ -1,0 +1,24 @@
+# SPDX-FileCopyrightText: 2023 Jane Doe
+#
+# SPDX-License-Identifier: CC0-1.0
+
+version = 1
+
+# The licence of the vendored foo_module code. Aggregate as much available
+# information as possible.
+[[annotations]]
+path = "static/foo_module/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2023 Example Company"
+SPDX-License-Identifier = "CC0-1.0"
+
+# Separately list this file with precedence toml because the file would
+# otherwise cause a parser error.
+[[annotations]]
+path = "static/foo_module/README.md"
+precedence = "toml"
+SPDX-FileCopyrightText = "2023 Example Company"
+SPDX-License-Identifier = "CC0-1.0"
+
+# No need to declare the licensing of static/well_behaved, because it's already
+# REUSE-compliant.

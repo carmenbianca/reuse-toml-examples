@@ -1,0 +1,12 @@
+# SPDX-FileCopyrightText: 2023 Jane Doe
+#
+# SPDX-License-Identifier: CC0-1.0
+
+version = 1
+
+[[annotations]]
+# By using '*' instead of '**', only the files directly inside docs are covered.
+path = "docs/*"
+precedence = "toml"
+SPDX-FileCopyrightText = "2023 Jane Doe"
+SPDX-License-Identifier = "CC0-1.0"
